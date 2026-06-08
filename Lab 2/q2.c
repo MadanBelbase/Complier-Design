@@ -7,9 +7,7 @@ int main()
     char ch;
     int characters = 0, words = 0, lines = 0;
     int inWord = 0;
-
     printf("Program to Count Characters, Words, and Lines in a Text File\n");
-
     fp = fopen("input.txt", "r");
     if (fp == NULL)
     {

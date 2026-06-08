@@ -16,7 +16,6 @@ int main() {
     }
     prev = fgetc(fp);
     while ((ch = fgetc(fp)) != EOF) {
-
         if (ch == '\n') {
             lines++;
         }
